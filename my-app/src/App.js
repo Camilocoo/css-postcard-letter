@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
 import Nabar from "./components/Nabar";
-
 import {Switch,Route} from "react-router-dom";
+import { Home } from "./views/home.js";
+
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
         <Nabar/>
 
             <Switch>
-
+                <Route exact path="/" component={Home} />
             </Switch>
 
         </React.Fragment>
