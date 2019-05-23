@@ -1,12 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+import Nabar from "./components/Nabar";
+
+import {Switch,Route} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
+        <Nabar/>
 
-    </div>
+            <Switch>
+
+            </Switch>
+
+        </React.Fragment>
   );
 }
 

@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.homeJumboImage{
+    background-image: url("https://ucarecdn.com/0568c6ca-e03b-457b-9241-71f57d7086c4/-/resize/1000x/");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+
+}
+
+.ultraLipo{
+  background-image: url("https://ucarecdn.com/0eaee51a-7f9d-44e9-acc8-5b48cc664761/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 38%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+}
+
+.homeJumboImageSmall{
+    background-image: url("https://ucarecdn.com/0568c6ca-e03b-457b-9241-71f57d7086c4/-/resize/900x/");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 180%;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center center;
+
+}
+
+
+.lipoBlue{
+    background-image: url("https://ucarecdn.com/1c22c8b6-76a0-4b47-93da-b1daf8e06aee/");
+     /*background-size: cover;*/
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: right center;
+}
+
+.advance{
+
+    background-image: url("https://ucarecdn.com/6a61b292-22d9-4974-8af5-9a1457e121f5/");
+     /*background-size: cover;*/
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: right center;
+
+}
+
+
+.supreme{
+    background-image: url("https://ucarecdn.com/715085b9-575a-4b9e-9c8b-e9891d33884f/");
+     background-size: cover;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: right center;
+}
+.backgorundBlack{
+    background-color: black
+}
+
+
+.gradient{
+
+    background-image: linear-gradient(black, #22252C);
+
+}
+
+.homeFont{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#cccccc;
+    font-weight:500;
+
+
+}
+
+.bodyBackground{
+    background-color: black;
+}
+
+.productBackground{
+    background-color: black;
+
+}
+
+.weAre{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:500;
+}
+
+.footerGradient{
+
+    background-image: linear-gradient( #22252C,black);
+
+}
+.html {
+  scroll-behavior: smooth;
+}
