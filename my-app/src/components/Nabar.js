@@ -25,7 +25,7 @@ import { HashLink as Link } from "react-router-hash-link";
 										<div className="navbar-nav">
 											<Link to="/" className="nav-link">
 												<a
-													className="nav-item nav-link  "
+													className="nav-item nav-link"
 													href="./home.html">
 													Home
 												</a>
@@ -33,12 +33,12 @@ import { HashLink as Link } from "react-router-hash-link";
 											<Link
 												to="/learning-tools"
 												className="nav-link">
-												<a className="nav-item nav-link  ">
+												<a className="nav-item nav-link">
 													Distributors
 												</a>
 											</Link>
 											<Link smooth to="/#aboutUs">
-												<p className="nav-item nav-link pt-3 ">
+												<p className="nav-item nav-link pt-3">
 													About Us
 												</p>
 											</Link>
