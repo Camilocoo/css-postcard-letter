@@ -12,7 +12,7 @@ class ProductList extends Component{
 
         return(
         <React.Fragment>
-            	<div className="container-fluid productBackground p-4">
+            	<div className="container productBackground p-4">
 					<div className="row pb-2 mb-5">
 						<div className="col-12 text-center text-white">
 							<p id="products" className="display-3 scrollspy">
