@@ -76,12 +76,12 @@ import { HashLink as Link } from "react-router-hash-link";
 												</a>
 											</Link>
 											<Link
-												to="https://student.breatheco.de/login"
+												to="/Cart"
 												className="nav-link">
 												<a
 													className="nav-item nav-link"
 													href="#">
-													Mail us
+													<i class="fas fa-shopping-cart"/>
 												</a>
 											</Link>
 										</div>

@@ -9,8 +9,8 @@ export default class Details extends Component{
          <ProductConsumer>
             {value=>{ const  {id,company ,img,info ,price,title,inCart} =value.detailProduct;
                 return (
-                <div className="bodyBackground vh-100">
-                <div className="container py-5 ">
+                <div className="bodyBackground">
+                <div className="container py-5 bodyBackground">
                     {/*title*/}
                     <div className ="row">
                         <div className="col-10 mx-auto text-center text-slanted my-5">
